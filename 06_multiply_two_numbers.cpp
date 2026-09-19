@@ -1,14 +1,10 @@
 #include <iostream>
 using namespace std;
-
-int main() {
-    double a, b;
-    cout << "Enter first number: ";
-    cin >> a;
-    cout << "Enter second number: ";
-    cin >> b;
-
-    double product = a * b;
-    cout << "Product = " << product << endl;
+int main()
+{
+    int a, b, multiply;
+    cin >> a >> b;
+    multiply = a * b;
+    cout << "Multiply = " << multiply;
     return 0;
 }
