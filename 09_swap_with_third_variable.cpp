@@ -1,19 +1,12 @@
 #include <iostream>
 using namespace std;
-
-int main() {
-    int a, b, temp;
-    cout << "Enter first number: ";
-    cin >> a;
-    cout << "Enter second number: ";
-    cin >> b;
-
-    cout << "Before swap: a = " << a << ", b = " << b << endl;
-
+int main()
+{
+    int a,b,temp;
+    cin >>a>>b;
     temp = a;
     a = b;
     b = temp;
-
-    cout << "After swap: a = " << a << ", b = " << b << endl;
+    cout <<"After swapping: a="<<a<<",b="<<b;
     return 0;
 }
