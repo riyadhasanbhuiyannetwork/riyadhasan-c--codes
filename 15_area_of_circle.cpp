@@ -1,14 +1,11 @@
 #include <iostream>
 using namespace std;
-
-int main() {
-    const double PI = 3.14159265358979;
-    double radius;
-
-    cout << "Enter radius of the circle: ";
-    cin >> radius;
-
-    double area = PI * radius * radius;
-    cout << "Area of circle = " << area << endl;
+int main()
+{
+    float r,area;
+    cout << "Radius: ";
+    cin>>r;
+    area=3.1416*r*r;
+    cout << "Area of circle = " << area;
     return 0;
 }
