@@ -9,7 +9,7 @@ int main() {
     cout << "Enter height of triangle: ";
     cin >> height;
 
-    double area = 0.5 * base * height;
+double area = 0.5 * base * height;
     cout << "Area of triangle = " << area << endl;
     return 0;
 }
